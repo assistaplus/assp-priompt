@@ -1,0 +1,576 @@
+repo_name: assistaplus/assp-priompt
+report_id: 744490954cd537f0754fad8e232e883a
+version: 0.1
+repo_type: Public
+timestamp: '2024-05-06T13:40:27+00:00'
+requested_by: arvid220u
+provider: github
+branch: main
+detected_tools_count: 42
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/assistaplus/assp-priompt
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/assistaplus/assp-priompt
+  detection_source: Repo Metadata
+- name: Rust
+  description: A safe, concurrent, practical language
+  website_url: http://www.rust-lang.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1070/v7txhrjp9pdqrkdtxxp0.png
+  detection_source_url: https://github.com/assistaplus/assp-priompt
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/assistaplus/assp-priompt
+  detection_source: Repo Metadata
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/assistaplus/assp-priompt/blob/main/priompt-preview/package.json
+  detection_source: priompt-preview/package.json
+  last_updated_by: Sualeh Asif
+  last_updated_on: 2023-07-31 21:54:45.000000000 Z
+- name: Fastify
+  description: Fast and low overhead web framework, for Node.js
+  website_url: http://www.fastify.io/
+  version: 4.17.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/7609/24939410.png
+  detection_source_url: https://github.com/assistaplus/assp-priompt/blob/main/examples/package.json
+  detection_source: examples/package.json
+  last_updated_by: Arvid Lunnemark
+  last_updated_on: 2023-06-18 18:53:29.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  version: 20.6.1
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/assistaplus/assp-priompt/blob/main/.nvmrc
+  detection_source: Repo Metadata
+  last_updated_by: Arvid Lunnemark
+  last_updated_on: 2023-09-14 04:57:21.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/assistaplus/assp-priompt/blob/main/priompt-preview/package.json
+  detection_source: priompt-preview/package.json
+  last_updated_by: Arvid Lunnemark
+  last_updated_on: 2023-06-18 18:53:29.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/assistaplus/assp-priompt/blob/main/priompt-preview/package.json
+  detection_source: priompt-preview/package.json
+  last_updated_by: David Mo
+  last_updated_on: 2023-10-25 03:18:50.000000000 Z
+- name: Tailwind CSS
+  description: A utility-first CSS framework for rapid UI development
+  website_url: https://tailwindcss.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source_url: https://github.com/assistaplus/assp-priompt/blob/main/priompt-preview/package.json
+  detection_source: priompt-preview/package.json
+  last_updated_by: Arvid Lunnemark
+  last_updated_on: 2023-08-09 07:20:20.000000000 Z
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/assistaplus/assp-priompt/blob/main/examples/package.json
+  detection_source: examples/package.json
+  last_updated_by: Arvid Lunnemark
+  last_updated_on: 2023-06-24 01:59:36.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/assistaplus/assp-priompt/blob/main/examples/package.json
+  detection_source: examples/package.json
+  last_updated_by: Arvid Lunnemark
+  last_updated_on: 2023-06-18 18:53:29.000000000 Z
+- name: Esbuild
+  description: An extremely fast JavaScript bundler
+  website_url: https://esbuild.github.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/25166/default_2dcc9286a150737a14625d18f6f93747f72be430.png
+  detection_source_url: https://github.com/assistaplus/assp-priompt/blob/main/priompt/package.json
+  detection_source: priompt/package.json
+  last_updated_by: Arvid Lunnemark
+  last_updated_on: 2023-09-19 03:19:05.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/assistaplus/assp-priompt
+  detection_source: Repo Metadata
+- name: Vite
+  description: Native-ESM powered web dev build tool
+  website_url: https://vitejs.dev/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png
+  detection_source_url: https://github.com/assistaplus/assp-priompt/blob/main/priompt-preview/package.json
+  detection_source: priompt-preview/package.json
+  last_updated_by: Arvid Lunnemark
+  last_updated_on: 2023-06-18 18:53:29.000000000 Z
+- name: nodemon
+  description: A simple monitor script for use during development of a node.js app
+  website_url: http://nodemon.io/
+  version: 2.0.22
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: node.js Application Monitoring
+  image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: https://github.com/assistaplus/assp-priompt/blob/main/priompt-preview/package.json
+  detection_source: priompt-preview/package.json
+  last_updated_by: Arvid Lunnemark
+  last_updated_on: 2023-06-18 18:53:29.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/assistaplus/assp-priompt/blob/main/examples/package.json
+  detection_source: examples/package.json
+  last_updated_by: Arvid Lunnemark
+  last_updated_on: 2023-06-18 18:53:29.000000000 Z
+- name: OpenAI
+  description: Creating safe AGI that benefits all
+  website_url: https://openai.com/
+  version: 3.3.0
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/48786/default_8b1119bcbb159cebebc2f6cfc9cd2e359b169d22.jpg
+  detection_source_url: https://github.com/assistaplus/assp-priompt/blob/main/examples/package.json
+  detection_source: examples/package.json
+  last_updated_by: Arvid Lunnemark
+  last_updated_on: 2023-06-18 18:53:29.000000000 Z
+- name: React Navigation
+  description: Flexible navigation library for React Native and web. Learn once, navigate
+    anywhere.
+  website_url: https://reactnavigation.org/
+  open_source: false
+  hosted_saas: false
+  category: Mobile
+  sub_category: Cross-Platform Mobile Tools
+  image_url: https://img.stackshare.io/service/6422/react-navigation.png
+  detection_source_url: https://github.com/assistaplus/assp-priompt/blob/main/tiktoken-node/package.json
+  detection_source: tiktoken-node/package.json
+  last_updated_by: Arvid Lunnemark
+  last_updated_on: 2023-09-19 03:19:05.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/assistaplus/assp-priompt
+  detection_source: Repo Metadata
+- name: Zod
+  description: TypeScript-first schema validation
+  website_url: https://zod.dev/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/48521/default_eea961e4c374e68a1c7eb5bbc9e4a39920890342.png
+  detection_source_url: https://github.com/assistaplus/assp-priompt/blob/main/examples/package.json
+  detection_source: examples/package.json
+  last_updated_by: Arvid Lunnemark
+  last_updated_on: 2023-06-18 18:53:29.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.26.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/assistaplus/assp-priompt/blob/main/priompt-preview/package.json
+  detection_source: priompt-preview/package.json
+  last_updated_by: Sualeh Asif
+  last_updated_on: 2023-07-31 21:54:45.000000000 Z
+- name: vite
+  description: Native-ESM powered web dev build tool
+  package_url: https://www.npmjs.com/vite
+  version: 4.3.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/assistaplus/assp-priompt/blob/main/priompt-preview/package.json
+  detection_source: priompt-preview/package.json
+  last_updated_by: Arvid Lunnemark
+  last_updated_on: 2023-09-17 17:59:11.000000000 Z
+  vulnerabilities:
+  - name: Vite dev server option `server.fs.deny` can be bypassed when hosted on case-insensitive
+      filesystem
+    cve_id: CVE-2024-23331
+    cve_url: https://github.com/advisories/GHSA-c24v-8rfc-w8vw
+    detected_date: Jan 20
+    severity: high
+    first_patched: 4.5.2
+  - name: Vite Server Options (server.fs.deny) can be bypassed using double forward-slash
+      (//)
+    cve_id: CVE-2023-34092
+    cve_url: https://github.com/advisories/GHSA-353f-5xf4-qw67
+    detected_date: Nov 23
+    severity: high
+    first_patched: 4.3.9
+  - name: Vite's `server.fs.deny` did not deny requests for patterns with directories.
+    cve_id: CVE-2024-31207
+    cve_url: https://github.com/advisories/GHSA-8jhw-289h-jh2g
+    detected_date: Apr 4
+    severity: moderate
+    first_patched: 4.5.3
+- name: "@types/js-yaml"
+  description: TypeScript definitions for js-yaml
+  package_url: https://www.npmjs.com/@types/js-yaml
+  version: 4.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16757/default_c6eddffbed005d007ab4638fbcac90e4b79576b2.png
+  detection_source_url: https://github.com/assistaplus/assp-priompt/blob/main/priompt/package.json
+  detection_source: priompt/package.json
+  last_updated_by: Arvid Lunnemark
+  last_updated_on: 2023-10-25 03:03:29.000000000 Z
+- name: "@types/json-schema"
+  description: TypeScript definitions for json-schema 4.0, 6.0 and
+  package_url: https://www.npmjs.com/@types/json-schema
+  version: 7.0.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18771/default_a5859a22d2687bca431101598566ff063dd79fa9.png
+  detection_source_url: https://github.com/assistaplus/assp-priompt/blob/main/priompt/package.json
+  detection_source: priompt/package.json
+  last_updated_by: Arvid Lunnemark
+  last_updated_on: 2023-11-01 03:50:32.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 20.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/assistaplus/assp-priompt/blob/main/examples/package.json
+  detection_source: examples/package.json
+  last_updated_by: Arvid Lunnemark
+  last_updated_on: 2023-10-25 03:03:29.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 18.0.28
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/assistaplus/assp-priompt/blob/main/priompt-preview/package.json
+  detection_source: priompt-preview/package.json
+  last_updated_by: David Mo
+  last_updated_on: 2023-10-25 03:18:50.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 18.0.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/assistaplus/assp-priompt/blob/main/priompt-preview/package.json
+  detection_source: priompt-preview/package.json
+  last_updated_by: David Mo
+  last_updated_on: 2023-10-25 03:18:50.000000000 Z
+- name: "@types/uuid"
+  description: TypeScript definitions for uuid
+  package_url: https://www.npmjs.com/@types/uuid
+  version: 9.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16257/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/assistaplus/assp-priompt/blob/main/priompt-preview/package.json
+  detection_source: priompt-preview/package.json
+  last_updated_by: Arvid Lunnemark
+  last_updated_on: 2023-10-25 03:03:29.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 5.59.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/assistaplus/assp-priompt/blob/main/examples/package.json
+  detection_source: examples/package.json
+  last_updated_by: Arvid Lunnemark
+  last_updated_on: 2023-10-25 03:03:29.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 5.59.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/assistaplus/assp-priompt/blob/main/examples/package.json
+  detection_source: examples/package.json
+  last_updated_by: Arvid Lunnemark
+  last_updated_on: 2023-10-25 03:03:29.000000000 Z
+- name: ava
+  description: Testing can be a drag. AVA helps you get it done
+  package_url: https://www.npmjs.com/ava
+  version: 5.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15883/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/assistaplus/assp-priompt/blob/main/tiktoken-node/package.json
+  detection_source: tiktoken-node/package.json
+  last_updated_by: Arvid Lunnemark
+  last_updated_on: 2023-09-19 03:19:05.000000000 Z
+- name: eslint-plugin-react-hooks
+  description: ESLint rules for React Hooks
+  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
+  version: 4.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/assistaplus/assp-priompt/blob/main/priompt-preview/package.json
+  detection_source: priompt-preview/package.json
+  last_updated_by: David Mo
+  last_updated_on: 2023-10-25 03:18:50.000000000 Z
+- name: js-tiktoken
+  description: JavaScript port of tiktoken
+  package_url: https://www.npmjs.com/js-tiktoken
+  version: 1.0.7
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/assistaplus/assp-priompt/blob/main/priompt-preview/package.json
+  detection_source: priompt-preview/package.json
+  last_updated_by: Arvid Lunnemark
+  last_updated_on: 2023-09-17 17:59:11.000000000 Z
+- name: js-yaml
+  description: YAML 1.2 parser and serializer
+  package_url: https://www.npmjs.com/js-yaml
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15997/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/assistaplus/assp-priompt/blob/main/priompt/package.json
+  detection_source: priompt/package.json
+  last_updated_by: Arvid Lunnemark
+  last_updated_on: 2023-05-05 04:34:42.000000000 Z
+- name: npm-run-all
+  description: A CLI tool to run multiple npm-scripts in parallel or sequential
+  package_url: https://www.npmjs.com/npm-run-all
+  version: 4.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15926/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/assistaplus/assp-priompt/blob/main/examples/package.json
+  detection_source: examples/package.json
+  last_updated_by: Arvid Lunnemark
+  last_updated_on: 2023-07-09 06:30:22.000000000 Z
+- name: openai
+  description: The official TypeScript library for the OpenAI API
+  package_url: https://www.npmjs.com/openai
+  version: 3.3.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/assistaplus/assp-priompt/blob/main/examples/package.json
+  detection_source: examples/package.json
+  last_updated_by: Arvid Lunnemark
+  last_updated_on: 2023-07-22 00:18:44.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/assistaplus/assp-priompt/blob/main/priompt-preview/package.json
+  detection_source: priompt-preview/package.json
+  last_updated_by: David Mo
+  last_updated_on: 2023-10-25 03:18:50.000000000 Z
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 5.0.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/assistaplus/assp-priompt/blob/main/priompt/package.json
+  detection_source: priompt/package.json
+  last_updated_by: Arvid Lunnemark
+  last_updated_on: 2023-05-05 04:34:42.000000000 Z
+- name: tailwindcss
+  description: A utility-first CSS framework for rapidly building custom user interfaces
+  package_url: https://www.npmjs.com/tailwindcss
+  version: 3.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/assistaplus/assp-priompt/blob/main/priompt-preview/package.json
+  detection_source: priompt-preview/package.json
+  last_updated_by: Arvid Lunnemark
+  last_updated_on: 2023-08-09 07:20:20.000000000 Z
+- name: tsx
+  description: TypeScript Execute
+  package_url: https://www.npmjs.com/tsx
+  version: 3.12.6
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/assistaplus/assp-priompt/blob/main/examples/package.json
+  detection_source: examples/package.json
+  last_updated_by: Arvid Lunnemark
+  last_updated_on: 2023-06-18 18:53:29.000000000 Z
+- name: uuid
+  description: RFC4122
+  package_url: https://www.npmjs.com/uuid
+  version: 9.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/assistaplus/assp-priompt/blob/main/priompt-preview/package.json
+  detection_source: priompt-preview/package.json
+  last_updated_by: Arvid Lunnemark
+  last_updated_on: 2023-08-09 07:20:20.000000000 Z
